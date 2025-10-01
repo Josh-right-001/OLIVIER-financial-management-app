@@ -75,7 +75,11 @@
 }
 
 @theme inline {
-  /* optional: --font-sans, --font-serif, --font-mono if they are applied in the layout.tsx */
+  /* Added font variables to theme configuration */
+  --font-sans: var(--font-poppins);
+  --font-serif: var(--font-geist);
+  --font-mono: var(--font-geist-mono);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
